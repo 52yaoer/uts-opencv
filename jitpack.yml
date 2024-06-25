@@ -1,3 +1,3 @@
 install:
-  - FILE="-Dfile=openCVLibrary-4.7.0-Pro7.aar"
-  - mvn install:install-file $FILE -DgroupId=org.opencv -DartifactId=opencv -Dversion=1.7 -Dpackaging=aar -DgeneratePom=true
+  - FILE="-Dfile=openCVLibrary-4.7.0-Pro8.aar"
+  - mvn install:install-file $FILE -DgroupId=org.opencv -DartifactId=opencv -Dversion=1.8 -Dpackaging=aar -DgeneratePom=true
